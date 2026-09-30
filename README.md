@@ -1,4 +1,4 @@
-# less-formulaic-fiction
+# text-obfuscator
 
 A skill that helps AI models write fiction with less of the structural sameness that makes AI-generated stories easy to spot: stated morals, tidy causal chains, emotions staged through the body, closing reflections, flat escalation, uniform rhythm.
 
@@ -11,7 +11,7 @@ Most "avoid AI-isms" lists are word blacklists. Recent research suggests the big
 ## Layout
 
 ```
-less-formulaic-fiction/
+text-obfuscator/
 ├── SKILL.md                 core: principles, workflow, Tier A habits, Tier B levers, scaling
 ├── references/
 │   ├── levers.md            R1–R36, R42: evidence, per-piece guidance, when to skip
@@ -32,7 +32,7 @@ less-formulaic-fiction/
 
 ## Install
 
-- **Claude.ai:** zip the `less-formulaic-fiction` folder (the folder itself should be the zip's root) and upload it as a custom skill. Code execution and file creation must be enabled for Skills to appear; the menu location has moved between UI versions, so follow Anthropic's [Using Skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) guide.
+- **Claude.ai:** zip the `text-obfuscator` folder (the folder itself should be the zip's root) and upload it as a custom skill. Code execution and file creation must be enabled for Skills to appear; the menu location has moved between UI versions, so follow Anthropic's [Using Skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) guide.
 - **Claude Code:** copy the folder into `~/.claude/skills/` (personal) or `.claude/skills/` (project).
 - **Other models:** use `SKILL.md` plus `levers.md`, `prose-surface.md` and `checklist.md` as a system prompt or project instructions; skip `claude-delta.md` (and `sources.md`, which is for humans).
 
