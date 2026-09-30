@@ -1,5 +1,5 @@
 ---
-name: less-formulaic-fiction
+name: text-obfuscator
 description: Craft guidance for writing fiction and narrative prose that avoids the structural habits typical of AI-generated stories (stated themes, tidy causal chains, body-sensation emotion, closing reflections, flat escalation, uniform rhythm). Use whenever the user asks for a story, scene, chapter, screenplay, narrative essay, anecdote, in-world lore, or roleplay narration, or asks for writing that is less generic, less formulaic, less "AI-sounding", or more human, even if they don't name this skill. Also use for the prose-surface guidance on any long-form creative prose. A craft tool, not a detector-evasion tool.
 ---
 
